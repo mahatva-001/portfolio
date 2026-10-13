@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Portfolio | SST</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font for a clean, tech aesthetic -->
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">SST<span>//</span>Student</div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h3>Hello World, I'm</h3>
+            <h1 class="neon-text">Your Name</h1>
+            <h2 class="typing-animation">First Year Student @ Scaler School of Tech</h2>
+            <p>Building scalable systems and exploring the depths of computer science, one algorithm at a time.</p>
+            <a href="#projects" class="btn-neon">View My Work</a>
+        </div>
+        
+        <!-- Image Container for your real picture -->
+        <div class="hero-image-wrapper">
+            <div class="image-glow-effect">
+                <!-- Replace 'your-profile.jpg' with your real picture filename -->
+                <img src="your-profile.jpg" alt="Your Real Profile Picture" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
